@@ -1,0 +1,35 @@
+<?php
+namespace App\Router\Web;
+
+class Route{
+    public static function get($route, $context)
+    {
+        $controller = $context[0];
+        $method = $context[1];
+        global $globalRoutes;
+        array_push($globalRoutes['get'],array('route'=>$route,'controller'=>$controller,'method'=>$method));
+    }
+    public static function post($route, $context)
+    {
+        $controller = $context[0];
+        $method = $context[1];
+        global $globalRoutes;
+        array_push($globalRoutes['post'],array('route'=>$route,'controller'=>$controller,'method'=>$method));
+    }
+    public static function put($route, $context)
+    {
+        $controller = $context[0];
+        $method = $context[1];
+        global $globalRoutes;
+        array_push($globalRoutes['put'],array('route'=>$route,'controller'=>$controller,'method'=>$method));
+    }
+    public static function delete($route, $context)
+    {
+        $controller = $context[0];
+        $method = $context[1];
+        global $globalRoutes;
+        array_push($globalRoutes['delete'],array('route'=>$route,'controller'=>$controller,'method'=>$method));
+    }
+
+
+}

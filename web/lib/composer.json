@@ -1,0 +1,4 @@
+{
+    "require":{"intervention/image":"2.5.0"},
+    "autoload":{}
+}

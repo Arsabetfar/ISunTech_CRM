@@ -1,0 +1,164 @@
+@font-face {
+    font-family: IRANSANSLIGHT;
+    src: url("../../fonts/IRANSANS_LIGHT.TTF");
+    font-size: 9px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: IRANSANSLIGHT;
+}
+.font-small{
+    font-size: 12px;
+}
+.dflex{
+    display: flex !important;
+}
+.margin-r-20{
+    margin-right: 20px;
+}
+.page-container {
+    position: relative;
+    min-height: 100vh;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.page-container .footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right:0px;
+    background-color: rgb(83, 97, 118);
+    color: whitesmoke;
+    box-sizing: border-box;
+}
+.page-container .footer .isunlink{
+    color:rgb(255, 128, 0);
+}
+.flex-row{
+    flex-direction: row !important;
+}
+.flex-column{
+    flex-direction: column !important;
+}
+.padding-10{
+    padding: 10px;
+}
+.w-50{
+    width: 50%;
+}
+.w-320{
+    width: 320px;
+}
+.w-300{
+    width: 300px;
+}
+.gap-5{
+    gap: 5px;
+}
+.justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    align-items: center;
+}
+.justify-content-right {
+    /* -ms-flex-pack: end !important;
+    justify-content: right !important; */
+    align-items: flex-end;
+}
+body{
+    font-family: IRANSANSLIGHT;
+}
+
+#leftSideBar {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.border-color-grey{
+    border-color: gray;
+}
+.border-shadow{
+    box-shadow: 0px 0px 20px 10px lightgray;
+}
+.border-1{
+    border-style: solid;
+    border-color: lightgray;
+    border-width:1px;    
+}
+
+.border-radius-5{
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: lightgray;
+    opacity: 1; /* Firefox */
+  }
+#login-pic{
+    background-size: cover ;
+    width: 300px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+input{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #d4d1d3;
+    width: 300px;
+    height: 40px;
+    padding : 0 10px;
+
+    /*font-family: IRANSANSLIGHT;*/
+}
+input[type="checkbox"]{
+     
+    /* border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #d4d1d3;  */
+    width: 15px;
+    height: 15px;
+    padding : 0 10px; 
+
+    /*font-family: IRANSANSLIGHT;*/
+}
+input[type="submit"]:hover {
+    background-color: rgb(35, 189, 182);
+}
+.padding-r-10{
+    padding-right: 10px;
+}
+.aWithoutUN{
+    text-decoration: none;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+}
+.refresh
+{
+    background-image: url(../../images/icons8-refresh-24.png);
+}
+.btnrefresh{
+    width: 50px;
+    height: 40px;
+    background-color: orangered;
+    border-color: orangered;
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+}
+table{
+    border: 4px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 3px;
+}
+table thead th { border-bottom: 1px solid #000; }
