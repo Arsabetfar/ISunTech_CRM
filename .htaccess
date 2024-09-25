@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteCond %{THE_REQUEST} !/web/* [NC] 
+    RewriteCond %{THE_REQUEST} !/web/* [NC]
     RewriteCond %{THE_REQUEST} /(app|config|databases|bootstrap)/.+ [NC]
     RewriteRule ^ - [R=403,L]
     RewriteRule ^$ web/public/ [L]

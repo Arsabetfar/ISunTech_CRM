@@ -3,7 +3,7 @@
 
     namespace App\Domain\Managers;
 
-    require_once('../../infrastructure/configDb');
+    require_once('../../infrastructure/database');
     use configDb\configDb as configDb;
     require_once("../../infrastructure/persistence/".configDb::DATABASE_TYPE_WEB.">/userRepository.php");
     use App\Infrastructure\Repositories\userRepository as userRepository;
@@ -47,7 +47,7 @@
                 return $usersfinal;
             }
             else
-                return null;
+                return [];
         }
 
         public function insertOne(userEntity $userOne):array

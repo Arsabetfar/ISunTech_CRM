@@ -1,7 +1,7 @@
 <?php
-namespace App\Controllers;
+namespace App\Controllers\Base;
 
-use App\Controllers\IController as IController;
+use App\Controllers\Base\IController as IController;
 
 class Controller implements IController{
     public function mapRequest($endPoint, $Method){

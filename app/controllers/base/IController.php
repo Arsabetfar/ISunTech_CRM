@@ -1,5 +1,5 @@
 <?php
-namespace App\Controllers;
+namespace App\Controllers\Base;
 interface IController{
     public function mapRequest($endPoint, $Method);
 }

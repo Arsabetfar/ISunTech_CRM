@@ -1,6 +1,6 @@
 <?php
     require_once "../BL/php/UserPage.php";
-    //require_once PATH_ROOT."config.php";
+    //require_once PATH_ROOT."database.php";
 ?>
 <html>
     <head>

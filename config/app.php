@@ -7,6 +7,8 @@ define("BASE_DIR", realpath(__DIR__."/../"));
 
 $currentRoute = explode("?",$_SERVER["REQUEST_URI"])[0];
 $currentRoute = ($currentRoute=="/" ? "" : substr($currentRoute,1));
+//echo "ppppp";
+//var_dump($currentRoute);
 define("CURRENT_ROUTE", $currentRoute);
 
   class Constants{

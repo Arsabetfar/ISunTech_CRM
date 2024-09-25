@@ -1,6 +1,4 @@
 <?php
-echo "ggg";
-require_once "../lib/vendor/autoload.php";
 require_once "../../bootstrap/app.php";
 ?>
 <!DOCTYPE html>

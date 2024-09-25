@@ -1,5 +1,5 @@
 <?php
-    require_once "../../config/config.php";
+    require_once "../../database/database.php";
     use config\Constants;
     //$conf = new Constants();
 ?>

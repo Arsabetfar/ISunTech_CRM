@@ -2,7 +2,7 @@
     namespace App\Infrastructure;
     use mysqli;
     use Exception;
-    require_once('../../infrastructure/configDb');
+    require_once('../../infrastructure/database');
     use configDb\configDb as configDb;
 
     class dbconn{
